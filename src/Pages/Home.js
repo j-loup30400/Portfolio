@@ -110,6 +110,7 @@ const Home = () => {
   const fourthImageToggle = () => setCarouselImage(3);
   const fifthImageToggle = () => setCarouselImage(4);
 
+
   return (
     <>
       <StyledAboutContainer>
@@ -129,7 +130,7 @@ const Home = () => {
           actionTwo={secondImageToggle}
           actionThree={thirdImageToggle}
           actionFour={fourthImageToggle}
-          actionFives={fifthImageToggle}
+          actionFive={fifthImageToggle}
           isActive={carouselImage}
         />
       </StyledCarousel>
